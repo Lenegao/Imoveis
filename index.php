@@ -1,23 +1,23 @@
 <?php
 
-require_once("painel/conexao.php");
-//require_once("funcoes.php");
-//require_once("inicia_sessao.php");
-//require_once("inicializa_pagina.php");
-
+// Pega a referencia vinda pelo GET
 $Aux_idImovel_Ant = addslashes($_GET["idImovel"]);
-
+// Gera a Conexão
+require_once("painel/conexao.php");
+// Faz a Consulta e pega os dados do Imovel
 $P_sql = "select idImovel, Titulo, Descricao, Observacoes from Imovel
  where idImovel = \"$Aux_idImovel_Ant\"";
 
 $resultado = mysql_query($P_sql,$P_Conexao);
 $P_Linha_Aux = mysql_fetch_row($resultado);
 
+// Pega os dados e coloca em variaveis para facilitar o uso
 $Aux_idImovel = htmlentities($P_Linha_Aux[0]);
 $Aux_Titulo = htmlentities($P_Linha_Aux[1]);
 $Aux_Descricao = htmlentities($P_Linha_Aux[2]);
 $Aux_Observacoes = htmlentities($P_Linha_Aux[3]);
 
+// Guarda os dados em um array
 $Imovel = array(
 	"idImovel"=>$Aux_idImovel,
 	"Titulo"=>$Aux_Titulo,
@@ -25,7 +25,8 @@ $Imovel = array(
 	"Observacoes"=>$Aux_Observacoes
 			   );
 
-
+// Pega os dados e coloca em Endereco mo array
+// Usando a mesma estratégia do imovel
 $P_sql = "select idEndereco, idImovel, CEP, Numero, Complemento from Endereco WHERE idImovel = $Aux_idImovel";
 $resultado = mysql_query($P_sql,$P_Conexao);
 if ($resultado != false)
@@ -51,6 +52,8 @@ if ($resultado != false)
   }
 
 
+// Pega os dados e coloca em Imagens mo array
+// Usando a mesma estratégia do imovel
 $P_sql = "select idImagens, idImovel, Titulo, Descricao, LinkImagem from Imagens WHERE idImovel = $Aux_idImovel";
 $resultado = mysql_query($P_sql,$P_Conexao);
 if ($resultado != false)
@@ -75,6 +78,9 @@ if ($resultado != false)
     }
   }
 
+// Pega os dados e coloca em Caracteriscas mo array
+// Aqui fez uma junção de 2 tabelas
+// Poderia ter criado um View também
 $P_sql = "SELECT idCaracteristicas, idImovel, ValorI, ValorD, ValorT, Nome, Conteudo, Tipo FROM Caracteristicas_Imovel LEFT JOIN Caracteristicas USING (idCaracteristicas) WHERE idImovel = $Aux_idImovel";
 $resultado = mysql_query($P_sql,$P_Conexao);
 
@@ -108,6 +114,8 @@ if ($resultado != false)
 
 
 
+// Se estiver enviado JSON, gera o JSON, caso contrário
+// faz um print_r do array, já montato
 
 $Imovel_JSON = json_encode($Imovel);
 if (isset($_GET["JSON"]))

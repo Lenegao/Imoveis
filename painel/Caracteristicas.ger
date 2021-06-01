@@ -1,4 +1,0 @@
-idCaracteristicas /:INTEGER:/  # 1 #+ #*
-Nome /:24:/  # 0
-Conteudo /:72:/  # 0
-Tipo # 0/%{Inteiro,Decimal,Texto}{Inteiro,Decimal,Texto}/%

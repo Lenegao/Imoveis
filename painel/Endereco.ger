@@ -1,5 +1,0 @@
-idEndereco /:INTEGER:/  # 1 #+ #*
-idImovel /:INTEGER:/  # 3 #Ref:Imovel (idImovel) #*
-CEP /:BIGINT:/  # 0
-Numero /:INTEGER:/  # 0
-Complemento /:20:/  # 0

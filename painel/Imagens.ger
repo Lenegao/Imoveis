@@ -1,5 +1,0 @@
-idImagens /:INTEGER:/  # 1 #+ #*
-idImovel /:INTEGER:/  # 3 #Ref:Imovel (idImovel) #*
-Titulo /:48:/  # 0
-Descricao # 5
-LinkImagem # 2

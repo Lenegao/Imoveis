@@ -1,0 +1,5 @@
+idCaracteristicas /:INTEGER:/  # 4 #Ref:Caracteristicas (idCaracteristicas) #*
+idImovel /:INTEGER:/  # 4 #Ref:Imovel (idImovel) #*
+ValorI /:INTEGER:/  # 0
+ValorD /:DECIMAL:/  # 0
+ValorT # 5

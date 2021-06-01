@@ -1,0 +1,4 @@
+idImovel /:INTEGER:/  # 1 #+ #*
+Titulo /:45:/  # 0
+Descricao # 5
+Observacoes # 5

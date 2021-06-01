@@ -1,0 +1,86 @@
+Sim/Não
+Não/Sim
+Masculino/Feminino
+Ativo/Inativo
+Estados-Num
+Estados-Sigals
+Modificações
+AMR-Escolaridade
+AMR-NivelEscolar
+Selecionar/Sim/Não
+AMR-TipoResposta
+Terapia
+CondPedi
+ParalisiaDoenca
+ParalisiaTipo
+Sindrome
+Melo
+AMR-SeveridadeMotora
+DadosCadastro
+Falta
+FaltaS/Just
+Advertencia
+MotivoContato
+Parentesco
+NDC
+TipoAnexo
+EscolaridadeComp
+TempoFormacao
+RendaAtual
+SituacaoTrabalho
+SelecionarSimNao
+InstEnsino
+ConcursosTempo
+TempoEstudos
+ConcursoAnualmente
+EscolaridadeComp
+Estado
+Nivel
+EnumOP
+EnumOP
+NDC_Concursos_Exibir
+TipoCarro
+TipoCarro
+#%*%#{1,0}{Sim,Não}
+{0,1}{Não,Sim}
+{1,0}{Masculino,Feminino}
+{1,0}{Ativo,Inativo}
+{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26}{"Acre","Alagoas","Amapá","Amazonas","Bahia","Ceará","Distrito Federal","Espirito Santo","Goias","Maranhão","Mato Grosso","Mato Grosso do Sul","Minas Gerais","Pará","Paraíba","Paraná","Pernambuco","Piauí","Rio de Janeiro","Rio Grande do Norte","Rio Grande do Sul","Rondônia","Roraima","Santa Catarina","São Paulo","Sergipe","Tocantins"}
+{AC,AL,AP,AM,BA,CE,DF,ES,GO,MA,MT,MS,MG,PA,PB,PR,PE,PI,RJ,RN,RS,RO,RR,SC,SP,SE,TO}{"Acre","Alagoas","Amapá","Amazonas","Bahia","Ceará","Distrito Federal","Espirito Santo","Goias","Maranhão","Mato Grosso","Mato Grosso do Sul","Minas Gerais","Pará","Paraíba","Paraná","Pernambuco","Piauí","Rio de Janeiro","Rio Grande do Norte","Rio Grande do Sul","Rondônia","Roraima","Santa Catarina","São Paulo","Sergipe","Tocantins"}
+{4,3,2,1}{Nenhuma, Criança, Reabilitação, Extensiva}
+{0,1,2}{"0 - Nenhum", "1 - Ensino Regular", "2 - Ensino Especial"}
+{0,1,2,3}{"0 - Nenhum", "1 - Educação Infantil", "2 - Educação Fundamental", "3 - Ensino Médio"}
+{0,1,2}{Selecionar, Sim, Não}
+{0,1}{"0 ou 1", "0 a 5 / NCRE"}
+{0,1}{"0 - Sem Tratamento", "1 - Com Tratamento"}
+{1,0}{"1 - Concluido","2 - Em Avaliação"}
+{0,1,2,3,4,5,6}{"0 - Não Tem", "1 - ", "2 - Espaticidade", "3 - Atetose", "4 - Ataxia", "5 - Hipotonia", "6 - Mista"}
+{0,1,2,3,4,5}{"0 - Não Tem", "1 - ", "2 - Hemiplegia", "3 - Quadriplegia", "4 - Diplegia", "5 - Monoplegia"}
+{0,1,2,3,4,5}{"0 - Não Tem", "1 - ", "2 - Dowm", "3 - West", "4 - Cornélia de Lange", "5 - Outras"}
+{0,1,2,3,4,5}{"0 - Não Tem", "1 - ", "2 - Toráxica / Lombar Alta", "3 - Lombar Baixa", "4 - Sacral Alta", "5 - Sacral Baixa"}
+{0,1,2,3}{"0 - Nenhuma", "1 - Leve", "2 - Moderado", "3 - Grave"}
+{0,1,2,3}{"0 - Nenhum", "1 - SIP", "2 - SAC", "3 - SOP"}
+{0,1,2,3}{Selecionar, "A) Licença médica do paciente", "B) Licença médica do acompanhante", "C) Declaração de comparecimento"}
+{0,1,2,3,4,5}{Selecionar, "A) Condições climáticas", "B) Doença do paciente sem atestado", "C) Doença do acompanhante sem atestado", "D) Problemas no trânsito", "E) Outros"}
+{0,1,2}{Selecionar, Verbal, Escrita}
+{0,1,2,3,4}{Selecionar, "A) Alteração de horário", "B) Informações sobre o estado de saúde do paciente", "C) Convocação para comparecer à instituição", "D) Outros"}
+{0,1,2,3,4,5}{"0 - Mãe", "1 - Pai", "2 - Avós", "3 - Tios", "4 - Irmãos", "5 - Outros"}
+{0,1,2,3}{"OK", "Cancelado", "Bloqueado", "Outros"}
+{0,1,2,3}{"Imagem(JPG/JPEG)", "Imagem(Outras)", "PDF", "Outros"}
+{,1,2,3,4,5,6,7,8}{"Selecionar", "1 - Ensino Fundamental Completo", "2 - Ensino Médio Completo", "3 Ensino Superior Incompleto", "4 - Ensino Superior Completo", "5 - Pós Graduação/Especialização", "6 - Mestrado", "7 - Doutorado", "8 - Pos Doutorado"}
+{,1,2,3,4}{"Selecionar", "1 - Menos de 2 Anos", "2 - 2 a 4 Anos", "3 - 5 a 7 Anos", "4 - Mais de 8 Anos"}
+{,1,2,3,4,5}{"Selecionar", "1 - Até R$ 510,00", "2 - de R$ 510,00 a R$1.020,00", "3 - de R$1.020,00 a R$2.550,00", "4 - de R$2.550,01 a R$5.100,00", "5 - acima de R$ 5.100,00"}
+{,1,2,3,4,5,6}{"Selecionar", "1 - Integral", "2 - Meio Periodo", "3 - Desempregado", "4 - Aposentado", "5 - Em Licença Médica", "6 - Outros"}
+{,1,0}{Selecionar, Sim, Não}
+{,1,2,3}{Selecionar, "1 - Integralmente em escola Pública", "2 - Integralmente em escola Privada", "3 - Escola Pública e Privada"}
+{,1,2,3,4,5,6}{Selecionar, "1 - Menos de 1 ano", "2 - de 1 a 2 anos", "3 - de 2 a 3 anos", "4 - de 3 a 4 anos", "5 - de 4 a 5 anos", "6 - mais de 5 anos"}
+{,1,2,3,4,5,6}{Selecionar, "1 - menos de 3 hs/dia", "2 - de 3 a 4 hs/dia", "3 - de 4 a 5 hs/dia", "4 - de 5 a 7 hs/dia", "5 - de 7 a 10 hs/dia", "6 - mais de 10 hs/dia"}
+{,1,2,3,4}{"Selecionar", "1 - 1", "2 - 2 a 3", "3 - 4 a 5", "4 - mais de 5"}
+{,1,2,3,4,5,6,7}{"Selecionar", "1 - Domingo", "2 - Segunda-Feira", "3 - Terça-Feira", "4 - Quarta-Feira", "5 - Quinta-Feira", "6 - Sexta-Feira", "7 - Sabado"}
+{0,1,2,3}{"OK", "Cancelado", "Bloqueado", "Outros"}
+{,1,2,3}{"Escolher Nivel", "Nivel Fundamental", "Nivel Médio", "Nivel Superior"}
+{,0,1,2,3}{"Selecionar", "0 (zero)", "1 (um)", "2 (dois)", "3 (tres)"}
+{0,1,2,3,4}{"(0) Inteiro", "(1) Moeda", "(2) Frase", "(3) texto", "(4) Outros"}
+{0,1,2,3}{"Não", "Sim", "Lib. Internautas", "Outros"}
+{0,1,2,11,12,13,99}{Selecionar, Carro, Moto,Carga,Convidado,"Taxi/Similares","Não Definido"}
+{0,1,2,3}{Selecionar, Administrador, Sindico, Porteiro}

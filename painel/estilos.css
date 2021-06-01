@@ -1,0 +1,89 @@
+.C_sistema_linksair {font-family: Georgia, "Times New Roman", Times, serif; color: #FFFF00; }
+.C_sistema_link {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.C_sistema_escrito {font-size: 24px}
+.C_sistema_topo {
+	background-color: #003399;
+}
+.C_sistema_menu {
+	background-color: #003399;
+}
+.C_sistema_conteudo {
+	background-color: #003399;
+	color: #FFFFFF;
+}
+.C_insert_tabela {
+	color: #FFFFFF;
+	background-color: #666666;
+	font-size: 18px;
+	border: 1px solid #000000;
+}
+.C_insert_linha {
+}
+.C_insert_celula {
+}
+.C_insert_celula_escrito {
+}
+.C_insert_celula_caixa {
+}
+.C_insert_celula_envio {
+	text-align: center;
+}
+.C_insert_escrito {
+}
+.C_insert_text {
+}
+.C_insert_textarea {
+}
+.C_insert_botao {
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+}
+.C_visualizar_tabela {
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #000000;
+}
+.C_visualizar_linha_titulo {
+}
+.C_visualizar_celula_titulo {
+	border: 1px solid #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	color: #FFFFFF;
+	background-color: #666666;
+	font-size: 24px;
+}
+.C_visualizar_escrito_titulo {
+}
+.C_visualizar_linha {
+}
+.C_visualizar_celula {
+	background-color: #0099CC;
+	font-size: 18px;
+}
+.C_visualizar_escrito {
+	color: #FFFFFF;
+}
+.C_visualizar_textarea {
+}
+.C_paginar_tabela {
+}
+C_paginar_linha {
+}
+.C_paginar_celula {
+}
+.C_paginar_escrito {
+}
+.C_layout_tabela {
+	width: 600px;
+}
+#apCorpo {
+	height:320px;
+	width:700px;
+	z-index:1;
+	overflow: auto;
+}
